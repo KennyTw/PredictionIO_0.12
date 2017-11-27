@@ -1,40 +1,27 @@
-[2017-11-06T02:32:29,273][INFO ][o.e.n.Node               ] [30cLowG] stopping ...
-[2017-11-06T02:32:29,403][INFO ][o.e.n.Node               ] [30cLowG] stopped
-[2017-11-06T02:32:29,403][INFO ][o.e.n.Node               ] [30cLowG] closing ...
-[2017-11-06T02:32:29,432][INFO ][o.e.n.Node               ] [30cLowG] closed
-[2017-11-06T10:59:31,561][INFO ][o.e.n.Node               ] [] initializing ...
-[2017-11-06T10:59:31,739][INFO ][o.e.e.NodeEnvironment    ] [30cLowG] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [181.9gb], net total_space [465.6gb], spins? [unknown], types [apfs]
-[2017-11-06T10:59:31,740][INFO ][o.e.e.NodeEnvironment    ] [30cLowG] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-11-06T10:59:31,771][INFO ][o.e.n.Node               ] node name [30cLowG] derived from node ID [30cLowGHT1OTKOaHE0XBxg]; set [node.name] to override
-[2017-11-06T10:59:31,771][INFO ][o.e.n.Node               ] version[5.5.2], pid[2136], build[b2f0c09/2017-08-14T12:33:14.154Z], OS[Mac OS X/10.13.1/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_92/25.92-b14]
-[2017-11-06T10:59:31,771][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/kennylee/dev/PredictionIO_0.12/vendors/elasticsearch-5.5.2]
-[2017-11-06T10:59:33,088][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [aggs-matrix-stats]
-[2017-11-06T10:59:33,089][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [ingest-common]
-[2017-11-06T10:59:33,089][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [lang-expression]
-[2017-11-06T10:59:33,089][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [lang-groovy]
-[2017-11-06T10:59:33,089][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [lang-mustache]
-[2017-11-06T10:59:33,089][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [lang-painless]
-[2017-11-06T10:59:33,089][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [parent-join]
-[2017-11-06T10:59:33,089][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [percolator]
-[2017-11-06T10:59:33,090][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [reindex]
-[2017-11-06T10:59:33,090][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [transport-netty3]
-[2017-11-06T10:59:33,090][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [transport-netty4]
-[2017-11-06T10:59:33,090][INFO ][o.e.p.PluginsService     ] [30cLowG] no plugins loaded
-[2017-11-06T10:59:35,636][INFO ][o.e.d.DiscoveryModule    ] [30cLowG] using discovery type [zen]
-[2017-11-06T10:59:36,509][INFO ][o.e.n.Node               ] initialized
-[2017-11-06T10:59:36,509][INFO ][o.e.n.Node               ] [30cLowG] starting ...
-[2017-11-06T10:59:41,759][INFO ][o.e.t.TransportService   ] [30cLowG] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
-[2017-11-06T10:59:44,836][INFO ][o.e.c.s.ClusterService   ] [30cLowG] new_master {30cLowG}{30cLowGHT1OTKOaHE0XBxg}{j9cpHXprR56ARHa_rSgrVw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-11-06T10:59:44,854][INFO ][o.e.h.n.Netty4HttpServerTransport] [30cLowG] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
-[2017-11-06T10:59:44,854][INFO ][o.e.n.Node               ] [30cLowG] started
-[2017-11-06T10:59:45,072][INFO ][o.e.g.GatewayService     ] [30cLowG] recovered [1] indices into cluster_state
-[2017-11-06T10:59:45,353][INFO ][o.e.c.r.a.AllocationService] [30cLowG] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[pio_meta][0]] ...]).
-[2017-11-06T11:03:30,875][INFO ][o.e.c.m.MetaDataMappingService] [30cLowG] [pio_meta/7XMQ6B33R5e39f0XYiO9lg] update_mapping [engine_instances]
-[2017-11-06T11:04:49,412][INFO ][o.e.m.j.JvmGcMonitorService] [30cLowG] [gc][312] overhead, spent [371ms] collecting in the last [1s]
-[2017-11-06T11:04:49,496][INFO ][o.e.c.m.MetaDataCreateIndexService] [30cLowG] [urindex_1509937488168] creating index, cause [api], templates [], shards [5]/[1], mappings [items]
-[2017-11-06T11:09:08,135][INFO ][o.e.c.m.MetaDataCreateIndexService] [30cLowG] [urindex_1509937747795] creating index, cause [api], templates [], shards [5]/[1], mappings [items]
-[2017-11-06T11:09:12,094][INFO ][o.e.c.m.MetaDataDeleteIndexService] [30cLowG] [urindex_1509937488168/zGHvPBoVQdeD6c8Xp7kXCQ] deleting index
-[2017-11-06T11:29:56,993][INFO ][o.e.n.Node               ] [30cLowG] stopping ...
-[2017-11-06T11:29:57,034][INFO ][o.e.n.Node               ] [30cLowG] stopped
-[2017-11-06T11:29:57,034][INFO ][o.e.n.Node               ] [30cLowG] closing ...
-[2017-11-06T11:29:57,045][INFO ][o.e.n.Node               ] [30cLowG] closed
+[2017-11-27T17:09:39,655][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-11-27T17:09:39,807][INFO ][o.e.e.NodeEnvironment    ] [30cLowG] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [157.4gb], net total_space [465.6gb], spins? [unknown], types [apfs]
+[2017-11-27T17:09:39,807][INFO ][o.e.e.NodeEnvironment    ] [30cLowG] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-11-27T17:09:39,864][INFO ][o.e.n.Node               ] node name [30cLowG] derived from node ID [30cLowGHT1OTKOaHE0XBxg]; set [node.name] to override
+[2017-11-27T17:09:39,865][INFO ][o.e.n.Node               ] version[5.5.2], pid[43350], build[b2f0c09/2017-08-14T12:33:14.154Z], OS[Mac OS X/10.13.1/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_92/25.92-b14]
+[2017-11-27T17:09:39,865][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/kennylee/dev/PredictionIO_0.12/vendors/elasticsearch-5.5.2]
+[2017-11-27T17:09:42,210][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [aggs-matrix-stats]
+[2017-11-27T17:09:42,210][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [ingest-common]
+[2017-11-27T17:09:42,210][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [lang-expression]
+[2017-11-27T17:09:42,210][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [lang-groovy]
+[2017-11-27T17:09:42,210][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [lang-mustache]
+[2017-11-27T17:09:42,211][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [lang-painless]
+[2017-11-27T17:09:42,211][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [parent-join]
+[2017-11-27T17:09:42,211][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [percolator]
+[2017-11-27T17:09:42,211][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [reindex]
+[2017-11-27T17:09:42,211][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [transport-netty3]
+[2017-11-27T17:09:42,211][INFO ][o.e.p.PluginsService     ] [30cLowG] loaded module [transport-netty4]
+[2017-11-27T17:09:42,212][INFO ][o.e.p.PluginsService     ] [30cLowG] no plugins loaded
+[2017-11-27T17:09:45,470][INFO ][o.e.d.DiscoveryModule    ] [30cLowG] using discovery type [zen]
+[2017-11-27T17:09:46,440][INFO ][o.e.n.Node               ] initialized
+[2017-11-27T17:09:46,440][INFO ][o.e.n.Node               ] [30cLowG] starting ...
+[2017-11-27T17:09:46,667][INFO ][o.e.t.TransportService   ] [30cLowG] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2017-11-27T17:09:49,748][INFO ][o.e.c.s.ClusterService   ] [30cLowG] new_master {30cLowG}{30cLowGHT1OTKOaHE0XBxg}{QG-0TjW3QHyFElwbITbBJA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-11-27T17:09:49,767][INFO ][o.e.h.n.Netty4HttpServerTransport] [30cLowG] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2017-11-27T17:09:49,767][INFO ][o.e.n.Node               ] [30cLowG] started
+[2017-11-27T17:09:50,011][INFO ][o.e.g.GatewayService     ] [30cLowG] recovered [2] indices into cluster_state
+[2017-11-27T17:09:50,447][INFO ][o.e.c.r.a.AllocationService] [30cLowG] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[pio_meta][3]] ...]).

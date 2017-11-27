@@ -360,3 +360,47 @@
 2017-11-06 11:24:55,354 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.89 port: 51727 with version info: version: "1.2.6" url: "file:///home/busbey/projects/hbase/hbase-assembly/target/hbase-1.2.6" revision: "Unknown" user: "busbey" date: "Mon May 29 02:25:32 CDT 2017" src_checksum: "7e8ce83a648e252758e9dae1fbe779c9"
 2017-11-06 11:29:38,837 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
 2017-11-06 11:29:38,838 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.89 port: 51772 with version info: version: "1.2.6" url: "file:///home/busbey/projects/hbase/hbase-assembly/target/hbase-1.2.6" revision: "Unknown" user: "busbey" date: "Mon May 29 02:25:32 CDT 2017" src_checksum: "7e8ce83a648e252758e9dae1fbe779c9"
+2017-11-27 17:09:42,629 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:09:42,637 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62554 with version info: version: "1.2.6" url: "file:///home/busbey/projects/hbase/hbase-assembly/target/hbase-1.2.6" revision: "Unknown" user: "busbey" date: "Mon May 29 02:25:32 CDT 2017" src_checksum: "7e8ce83a648e252758e9dae1fbe779c9"
+2017-11-27 17:09:57,146 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:09:57,147 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62584 with version info: version: "1.2.6" url: "file:///home/busbey/projects/hbase/hbase-assembly/target/hbase-1.2.6" revision: "Unknown" user: "busbey" date: "Mon May 29 02:25:32 CDT 2017" src_checksum: "7e8ce83a648e252758e9dae1fbe779c9"
+2017-11-27 17:09:57,659 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:09:57,659 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62585 with version info: version: "1.2.6" url: "file:///home/busbey/projects/hbase/hbase-assembly/target/hbase-1.2.6" revision: "Unknown" user: "busbey" date: "Mon May 29 02:25:32 CDT 2017" src_checksum: "7e8ce83a648e252758e9dae1fbe779c9"
+2017-11-27 17:10:12,694 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:10:12,695 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62587 with unknown version info
+2017-11-27 17:12:11,453 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:11,454 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62629 with unknown version info
+2017-11-27 17:12:11,655 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:11,655 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62631 with unknown version info
+2017-11-27 17:12:11,672 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:11,672 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62632 with version info: version: "1.2.6" url: "file:///home/busbey/projects/hbase/hbase-assembly/target/hbase-1.2.6" revision: "Unknown" user: "busbey" date: "Mon May 29 02:25:32 CDT 2017" src_checksum: "7e8ce83a648e252758e9dae1fbe779c9"
+2017-11-27 17:12:11,898 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:11,898 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62635 with unknown version info
+2017-11-27 17:12:12,247 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:12,247 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62636 with unknown version info
+2017-11-27 17:12:12,646 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:12,646 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62637 with version info: version: "1.2.6" url: "file:///home/busbey/projects/hbase/hbase-assembly/target/hbase-1.2.6" revision: "Unknown" user: "busbey" date: "Mon May 29 02:25:32 CDT 2017" src_checksum: "7e8ce83a648e252758e9dae1fbe779c9"
+2017-11-27 17:12:12,907 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:12,908 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62640 with unknown version info
+2017-11-27 17:12:13,221 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:13,221 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62643 with unknown version info
+2017-11-27 17:12:13,500 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:13,501 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62646 with unknown version info
+2017-11-27 17:12:13,741 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:13,742 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62649 with unknown version info
+2017-11-27 17:12:14,072 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:14,072 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62653 with unknown version info
+2017-11-27 17:12:14,510 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:14,510 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62656 with unknown version info
+2017-11-27 17:12:15,144 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:12:15,144 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62660 with unknown version info
+2017-11-27 17:14:57,960 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:14:57,963 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62714 with version info: version: "1.2.6" url: "file:///home/busbey/projects/hbase/hbase-assembly/target/hbase-1.2.6" revision: "Unknown" user: "busbey" date: "Mon May 29 02:25:32 CDT 2017" src_checksum: "7e8ce83a648e252758e9dae1fbe779c9"
+2017-11-27 17:19:58,029 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:19:58,031 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 62878 with version info: version: "1.2.6" url: "file:///home/busbey/projects/hbase/hbase-assembly/target/hbase-1.2.6" revision: "Unknown" user: "busbey" date: "Mon May 29 02:25:32 CDT 2017" src_checksum: "7e8ce83a648e252758e9dae1fbe779c9"
+2017-11-27 17:24:57,977 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:24:57,980 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 63102 with version info: version: "1.2.6" url: "file:///home/busbey/projects/hbase/hbase-assembly/target/hbase-1.2.6" revision: "Unknown" user: "busbey" date: "Mon May 29 02:25:32 CDT 2017" src_checksum: "7e8ce83a648e252758e9dae1fbe779c9"
+2017-11-27 17:29:58,099 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:29:58,101 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 63232 with version info: version: "1.2.6" url: "file:///home/busbey/projects/hbase/hbase-assembly/target/hbase-1.2.6" revision: "Unknown" user: "busbey" date: "Mon May 29 02:25:32 CDT 2017" src_checksum: "7e8ce83a648e252758e9dae1fbe779c9"
+2017-11-27 17:34:58,037 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Auth successful for kennylee (auth:SIMPLE)
+2017-11-27 17:34:58,038 INFO SecurityLogger.org.apache.hadoop.hbase.Server: Connection from 192.168.1.105 port: 63330 with version info: version: "1.2.6" url: "file:///home/busbey/projects/hbase/hbase-assembly/target/hbase-1.2.6" revision: "Unknown" user: "busbey" date: "Mon May 29 02:25:32 CDT 2017" src_checksum: "7e8ce83a648e252758e9dae1fbe779c9"
