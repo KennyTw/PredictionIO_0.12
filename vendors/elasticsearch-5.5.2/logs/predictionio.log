@@ -25,3 +25,7 @@
 [2017-11-27T17:09:49,767][INFO ][o.e.n.Node               ] [30cLowG] started
 [2017-11-27T17:09:50,011][INFO ][o.e.g.GatewayService     ] [30cLowG] recovered [2] indices into cluster_state
 [2017-11-27T17:09:50,447][INFO ][o.e.c.r.a.AllocationService] [30cLowG] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[pio_meta][3]] ...]).
+[2017-11-27T18:08:47,357][INFO ][o.e.n.Node               ] [30cLowG] stopping ...
+[2017-11-27T18:08:47,424][INFO ][o.e.n.Node               ] [30cLowG] stopped
+[2017-11-27T18:08:47,425][INFO ][o.e.n.Node               ] [30cLowG] closing ...
+[2017-11-27T18:08:47,441][INFO ][o.e.n.Node               ] [30cLowG] closed

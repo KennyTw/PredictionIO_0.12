@@ -6891,3 +6891,150 @@ EndOfStreamException: Unable to read additional data from client sessionid 0x15f
 2017-11-27 17:29:42,735 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=856.19 KB, freeSize=805.06 MB, max=805.90 MB, blockCount=4, accesses=73, hits=66, hitRatio=90.41%, , cachingAccesses=70, cachingHits=64, cachingHitsRatio=91.43%, evictions=119, evicted=2, evictedPerRun=0.016806723549962044
 2017-11-27 17:34:42,743 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=856.19 KB, freeSize=805.06 MB, max=805.90 MB, blockCount=4, accesses=74, hits=67, hitRatio=90.54%, , cachingAccesses=71, cachingHits=65, cachingHitsRatio=91.55%, evictions=149, evicted=2, evictedPerRun=0.01342281885445118
 2017-11-27 17:39:42,753 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=856.19 KB, freeSize=805.06 MB, max=805.90 MB, blockCount=4, accesses=75, hits=68, hitRatio=90.67%, , cachingAccesses=72, cachingHits=66, cachingHitsRatio=91.67%, evictions=179, evicted=2, evictedPerRun=0.011173184029757977
+2017-11-27 17:44:42,754 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=856.19 KB, freeSize=805.06 MB, max=805.90 MB, blockCount=4, accesses=76, hits=69, hitRatio=90.79%, , cachingAccesses=73, cachingHits=67, cachingHitsRatio=91.78%, evictions=209, evicted=2, evictedPerRun=0.009569377638399601
+2017-11-27 17:49:42,765 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=856.19 KB, freeSize=805.06 MB, max=805.90 MB, blockCount=4, accesses=77, hits=70, hitRatio=90.91%, , cachingAccesses=74, cachingHits=68, cachingHitsRatio=91.89%, evictions=239, evicted=2, evictedPerRun=0.008368200622498989
+2017-11-27 17:54:42,773 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=856.19 KB, freeSize=805.06 MB, max=805.90 MB, blockCount=4, accesses=78, hits=71, hitRatio=91.03%, , cachingAccesses=75, cachingHits=69, cachingHitsRatio=92.00%, evictions=269, evicted=2, evictedPerRun=0.0074349441565573215
+2017-11-27 17:59:42,777 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=856.19 KB, freeSize=805.06 MB, max=805.90 MB, blockCount=4, accesses=79, hits=72, hitRatio=91.14%, , cachingAccesses=76, cachingHits=70, cachingHitsRatio=92.11%, evictions=299, evicted=2, evictedPerRun=0.006688963156193495
+2017-11-27 18:04:42,777 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=856.19 KB, freeSize=805.06 MB, max=805.90 MB, blockCount=4, accesses=80, hits=73, hitRatio=91.25%, , cachingAccesses=77, cachingHits=71, cachingHitsRatio=92.21%, evictions=329, evicted=2, evictedPerRun=0.006079027429223061
+2017-11-27 18:08:26,374 WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181] server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x15ffcbd324d0007, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:228)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-27 18:08:26,376 INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181] server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:62588 which had sessionid 0x15ffcbd324d0007
+2017年11月27日 週一 18時08分26秒 CST Stopping hbase (via master)
+2017-11-27 18:08:27,875 INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181] server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:64252
+2017-11-27 18:08:27,886 INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181] server.ZooKeeperServer: Client attempting to establish new session at /0:0:0:0:0:0:0:1:64252
+2017-11-27 18:08:27,888 INFO  [SyncThread:0] server.ZooKeeperServer: Established session 0x15ffcbd324d001a with negotiated timeout 40000 for client /0:0:0:0:0:0:0:1:64252
+2017-11-27 18:08:28,307 INFO  [B.defaultRpcServer.handler=20,queue=2,port=62544] master.MasterRpcServices: Client=kennylee//192.168.1.105 shutdown
+2017-11-27 18:08:28,307 INFO  [B.defaultRpcServer.handler=20,queue=2,port=62544] regionserver.HRegionServer: STOPPED: Cluster shutdown requested
+2017-11-27 18:08:28,307 INFO  [M:0;192.168.1.105:62544] regionserver.HRegionServer: Stopping infoServer
+2017-11-27 18:08:28,315 INFO  [M:0;192.168.1.105:62544] mortbay.log: Stopped SelectChannelConnector@0.0.0.0:16010
+2017-11-27 18:08:28,316 INFO  [M:0;192.168.1.105:62544] procedure2.ProcedureExecutor: Stopping the procedure executor
+2017-11-27 18:08:28,317 INFO  [ProcessThread(sid:0 cport:-1):] server.PrepRequestProcessor: Processed session termination for sessionid: 0x15ffcbd324d001a
+2017-11-27 18:08:28,317 INFO  [M:0;192.168.1.105:62544] wal.WALProcedureStore: Stopping the WAL Procedure Store
+2017-11-27 18:08:28,319 INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181] server.NIOServerCnxn: Closed socket connection for client /0:0:0:0:0:0:0:1:64252 which had sessionid 0x15ffcbd324d001a
+2017-11-27 18:08:28,321 INFO  [M:0;192.168.1.105:62544] regionserver.HRegionServer: stopping server 192.168.1.105,62544,1511773779886
+2017-11-27 18:08:28,322 INFO  [M:0;192.168.1.105:62544] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x15ffcbd324d0003
+2017-11-27 18:08:28,322 INFO  [ProcessThread(sid:0 cport:-1):] server.PrepRequestProcessor: Processed session termination for sessionid: 0x15ffcbd324d0003
+2017-11-27 18:08:28,323 INFO  [M:0;192.168.1.105:62544] zookeeper.ZooKeeper: Session: 0x15ffcbd324d0003 closed
+2017-11-27 18:08:28,323 INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181] server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:62551 which had sessionid 0x15ffcbd324d0003
+2017-11-27 18:08:28,323 INFO  [M:0;192.168.1.105:62544] regionserver.HRegionServer: stopping server 192.168.1.105,62544,1511773779886; all regions closed.
+2017-11-27 18:08:28,323 INFO  [192.168.1.105:62544.activeMasterManager-EventThread] zookeeper.ClientCnxn: EventThread shut down
+2017-11-27 18:08:28,324 INFO  [M:0;192.168.1.105:62544] hbase.ChoreService: Chore service for: 192.168.1.105,62544,1511773779886 had [[ScheduledChore: Name: HFileCleaner Period: 60000 Unit: MILLISECONDS], [ScheduledChore: Name: 192.168.1.105,62544,1511773779886-ClusterStatusChore Period: 60000 Unit: MILLISECONDS], [ScheduledChore: Name: 192.168.1.105,62544,1511773779886-BalancerChore Period: 300000 Unit: MILLISECONDS], [ScheduledChore: Name: CatalogJanitor-192.168.1.105:62544 Period: 300000 Unit: MILLISECONDS], [ScheduledChore: Name: 192.168.1.105,62544,1511773779886-RegionNormalizerChore Period: 1800000 Unit: MILLISECONDS], [ScheduledChore: Name: 192.168.1.105,62544,1511773779886-DoMetricsChore Period: 3000 Unit: MILLISECONDS], [ScheduledChore: Name: LogsCleaner Period: 60000 Unit: MILLISECONDS]] on shutdown
+2017-11-27 18:08:28,325 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:28,881 INFO  [192.168.1.105,62544,1511773779886_splitLogManager__ChoreService_1] hbase.ScheduledChore: Chore: SplitLogManager Timeout Monitor was stopped
+2017-11-27 18:08:29,365 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:30,252 INFO  [RS:0;192.168.1.105:62546] regionserver.HRegionServer: Closing user regions
+2017-11-27 18:08:30,259 INFO  [StoreCloserThread-hbase:namespace,,1509892193273.0cfdc7175cf1f207ecde6643b08513c5.-1] regionserver.HStore: Closed info
+2017-11-27 18:08:30,259 INFO  [StoreCloserThread-pio_event:events_1,,1509893943386.464b15f0e34482fe149a84e14ca61cac.-1] regionserver.HStore: Closed e
+2017-11-27 18:08:30,260 INFO  [StoreCloserThread-pio_event:events_1,,1509893943386.464b15f0e34482fe149a84e14ca61cac.-1] regionserver.HStore: Closed r
+2017-11-27 18:08:30,295 INFO  [RS_CLOSE_REGION-192.168.1.105:62546-2] regionserver.HRegion: Closed hbase:namespace,,1509892193273.0cfdc7175cf1f207ecde6643b08513c5.
+2017-11-27 18:08:30,295 INFO  [RS_CLOSE_REGION-192.168.1.105:62546-1] regionserver.HRegion: Closed pio_event:events_1,,1509893943386.464b15f0e34482fe149a84e14ca61cac.
+2017-11-27 18:08:30,405 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:31,437 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:32,464 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:33,505 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:34,543 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:35,576 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:36,265 INFO  [RS:0;192.168.1.105:62546] regionserver.HRegionServer: STOPPED: Stopped; only catalog regions remaining online
+2017-11-27 18:08:36,265 INFO  [RS:0;192.168.1.105:62546] regionserver.SplitLogWorker: Sending interrupt to stop the worker thread
+2017-11-27 18:08:36,266 INFO  [RS:0;192.168.1.105:62546] regionserver.HRegionServer: Stopping infoServer
+2017-11-27 18:08:36,269 INFO  [SplitLogWorker-192.168.1.105:62546] regionserver.SplitLogWorker: SplitLogWorker interrupted. Exiting. 
+2017-11-27 18:08:36,269 INFO  [SplitLogWorker-192.168.1.105:62546] regionserver.SplitLogWorker: SplitLogWorker 192.168.1.105,62546,1511773781710 exiting
+2017-11-27 18:08:36,274 INFO  [RS:0;192.168.1.105:62546] mortbay.log: Stopped SelectChannelConnector@0.0.0.0:0
+2017-11-27 18:08:36,378 INFO  [RS:0;192.168.1.105:62546] regionserver.HeapMemoryManager: Stoping HeapMemoryTuner chore.
+2017-11-27 18:08:36,379 INFO  [RS:0;192.168.1.105:62546] flush.RegionServerFlushTableProcedureManager: Stopping region server flush procedure manager gracefully.
+2017-11-27 18:08:36,379 INFO  [MemStoreFlusher.0] regionserver.MemStoreFlusher: MemStoreFlusher.0 exiting
+2017-11-27 18:08:36,379 INFO  [MemStoreFlusher.1] regionserver.MemStoreFlusher: MemStoreFlusher.1 exiting
+2017-11-27 18:08:36,382 INFO  [RS:0;192.168.1.105:62546] snapshot.RegionServerSnapshotManager: Stopping RegionServerSnapshotManager gracefully.
+2017-11-27 18:08:36,382 INFO  [RS:0;192.168.1.105:62546] regionserver.HRegionServer: stopping server 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:36,382 INFO  [RS:0;192.168.1.105:62546] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x15ffcbd324d0004
+2017-11-27 18:08:36,382 INFO  [ProcessThread(sid:0 cport:-1):] server.PrepRequestProcessor: Processed session termination for sessionid: 0x15ffcbd324d0004
+2017-11-27 18:08:36,385 INFO  [RS:0;192.168.1.105:62546] zookeeper.ZooKeeper: Session: 0x15ffcbd324d0004 closed
+2017-11-27 18:08:36,385 INFO  [RS:0;192.168.1.105:62546] regionserver.CompactSplitThread: Waiting for Split Thread to finish...
+2017-11-27 18:08:36,385 INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181] server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:62552 which had sessionid 0x15ffcbd324d0004
+2017-11-27 18:08:36,385 INFO  [RS:0;192.168.1.105:62546-EventThread] zookeeper.ClientCnxn: EventThread shut down
+2017-11-27 18:08:36,385 INFO  [RS:0;192.168.1.105:62546] regionserver.CompactSplitThread: Waiting for Merge Thread to finish...
+2017-11-27 18:08:36,386 INFO  [RS:0;192.168.1.105:62546] regionserver.CompactSplitThread: Waiting for Large Compaction Thread to finish...
+2017-11-27 18:08:36,386 INFO  [RS:0;192.168.1.105:62546] regionserver.CompactSplitThread: Waiting for Small Compaction Thread to finish...
+2017-11-27 18:08:36,387 INFO  [RS:0;192.168.1.105:62546] regionserver.HRegionServer: Waiting on 1 regions to close
+2017-11-27 18:08:36,389 INFO  [StoreCloserThread-hbase:meta,,1.1588230740-1] regionserver.HStore: Closed info
+2017-11-27 18:08:36,413 INFO  [RS_CLOSE_META-192.168.1.105:62546-0] regionserver.HRegion: Closed hbase:meta,,1.1588230740
+2017-11-27 18:08:36,591 INFO  [RS:0;192.168.1.105:62546] regionserver.HRegionServer: stopping server 192.168.1.105,62546,1511773781710; all regions closed.
+2017-11-27 18:08:36,599 INFO  [RS:0;192.168.1.105:62546] wal.FSHLog: Closed WAL: FSHLog 192.168.1.105%2C62546%2C1511773781710..meta:.meta(num 1511773797159)
+2017-11-27 18:08:36,602 INFO  [RS:0;192.168.1.105:62546] wal.FSHLog: Closed WAL: FSHLog 192.168.1.105%2C62546%2C1511773781710.default:(num 1511773782777)
+2017-11-27 18:08:36,603 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:36,613 INFO  [RS:0;192.168.1.105:62546] regionserver.Leases: RS:0;192.168.1.105:62546 closing leases
+2017-11-27 18:08:36,613 INFO  [RS:0;192.168.1.105:62546] regionserver.Leases: RS:0;192.168.1.105:62546 closed leases
+2017-11-27 18:08:36,613 INFO  [RS:0;192.168.1.105:62546] hbase.ChoreService: Chore service for: 192.168.1.105,62546,1511773781710 had [[ScheduledChore: Name: MovedRegionsCleaner for region 192.168.1.105,62546,1511773781710 Period: 120000 Unit: MILLISECONDS], [ScheduledChore: Name: 192.168.1.105,62546,1511773781710-MemstoreFlusherChore Period: 10000 Unit: MILLISECONDS]] on shutdown
+2017-11-27 18:08:37,633 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:38,171 INFO  [RS_OPEN_META-192.168.1.105:62546-0-MetaLogRoller] regionserver.LogRoller: LogRoller exiting.
+2017-11-27 18:08:38,654 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:39,679 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:40,704 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:41,727 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:42,757 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:43,787 INFO  [M:0;192.168.1.105:62544] master.ServerManager: Waiting on regionserver(s) to go down 192.168.1.105,62546,1511773781710
+2017-11-27 18:08:44,023 INFO  [regionserver//192.168.1.105:0.logRoller] regionserver.LogRoller: LogRoller exiting.
+2017-11-27 18:08:44,024 INFO  [regionserver//192.168.1.105:0.leaseChecker] regionserver.Leases: regionserver//192.168.1.105:0.leaseChecker closing leases
+2017-11-27 18:08:44,025 INFO  [regionserver//192.168.1.105:0.leaseChecker] regionserver.Leases: regionserver//192.168.1.105:0.leaseChecker closed leases
+2017-11-27 18:08:44,037 INFO  [RS:0;192.168.1.105:62546] ipc.RpcServer: Stopping server on 62546
+2017-11-27 18:08:44,038 INFO  [RpcServer.listener,port=62546] ipc.RpcServer: RpcServer.listener,port=62546: stopping
+2017-11-27 18:08:44,039 INFO  [RpcServer.responder] ipc.RpcServer: RpcServer.responder: stopped
+2017-11-27 18:08:44,039 INFO  [RpcServer.responder] ipc.RpcServer: RpcServer.responder: stopping
+2017-11-27 18:08:44,044 INFO  [main-EventThread] zookeeper.RegionServerTracker: RegionServer ephemeral node deleted, processing expiration [192.168.1.105,62546,1511773781710]
+2017-11-27 18:08:44,046 INFO  [main-EventThread] master.ServerManager: Cluster shutdown set; 192.168.1.105,62546,1511773781710 expired; onlineServers=0
+2017-11-27 18:08:44,047 INFO  [ProcessThread(sid:0 cport:-1):] server.PrepRequestProcessor: Processed session termination for sessionid: 0x15ffcbd324d0001
+2017-11-27 18:08:44,047 INFO  [RS:0;192.168.1.105:62546] zookeeper.ZooKeeper: Session: 0x15ffcbd324d0001 closed
+2017-11-27 18:08:44,047 INFO  [main-EventThread] zookeeper.ClientCnxn: EventThread shut down
+2017-11-27 18:08:44,047 INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181] server.NIOServerCnxn: Closed socket connection for client /0:0:0:0:0:0:0:1:62547 which had sessionid 0x15ffcbd324d0001
+2017-11-27 18:08:44,047 INFO  [RS:0;192.168.1.105:62546] regionserver.HRegionServer: stopping server 192.168.1.105,62546,1511773781710; zookeeper connection closed.
+2017-11-27 18:08:44,048 INFO  [RS:0;192.168.1.105:62546] regionserver.HRegionServer: RS:0;192.168.1.105:62546 exiting
+2017-11-27 18:08:44,048 INFO  [M:0;192.168.1.105:62544] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x15ffcbd324d0002
+2017-11-27 18:08:44,049 INFO  [ProcessThread(sid:0 cport:-1):] server.PrepRequestProcessor: Processed session termination for sessionid: 0x15ffcbd324d0002
+2017-11-27 18:08:44,050 INFO  [M:0;192.168.1.105:62544] zookeeper.ZooKeeper: Session: 0x15ffcbd324d0002 closed
+2017-11-27 18:08:44,050 INFO  [192.168.1.105:62544.activeMasterManager-EventThread] zookeeper.ClientCnxn: EventThread shut down
+2017-11-27 18:08:44,050 INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181] server.NIOServerCnxn: Closed socket connection for client /0:0:0:0:0:0:0:1:62550 which had sessionid 0x15ffcbd324d0002
+2017-11-27 18:08:44,050 INFO  [M:0;192.168.1.105:62544] hbase.ChoreService: Chore service for: 192.168.1.105,62544,1511773779886_splitLogManager_ had [] on shutdown
+2017-11-27 18:08:44,051 INFO  [M:0;192.168.1.105:62544] flush.MasterFlushTableProcedureManager: stop: server shutting down.
+2017-11-27 18:08:44,051 INFO  [M:0;192.168.1.105:62544] ipc.RpcServer: Stopping server on 62544
+2017-11-27 18:08:44,051 INFO  [RpcServer.listener,port=62544] ipc.RpcServer: RpcServer.listener,port=62544: stopping
+2017-11-27 18:08:44,052 INFO  [RpcServer.responder] ipc.RpcServer: RpcServer.responder: stopped
+2017-11-27 18:08:44,052 INFO  [RpcServer.responder] ipc.RpcServer: RpcServer.responder: stopping
+2017-11-27 18:08:44,055 INFO  [ProcessThread(sid:0 cport:-1):] server.PrepRequestProcessor: Got user-level KeeperException when processing sessionid:0x15ffcbd324d0000 type:delete cxid:0x62d zxid:0x312 txntype:-1 reqpath:n/a Error Path:/hbase/rs/192.168.1.105,62544,1511773779886 Error:KeeperErrorCode = NoNode for /hbase/rs/192.168.1.105,62544,1511773779886
+2017-11-27 18:08:44,057 INFO  [ProcessThread(sid:0 cport:-1):] server.PrepRequestProcessor: Processed session termination for sessionid: 0x15ffcbd324d0000
+2017-11-27 18:08:44,057 INFO  [M:0;192.168.1.105:62544] zookeeper.ZooKeeper: Session: 0x15ffcbd324d0000 closed
+2017-11-27 18:08:44,057 INFO  [main-EventThread] zookeeper.ClientCnxn: EventThread shut down
+2017-11-27 18:08:44,058 INFO  [M:0;192.168.1.105:62544] regionserver.HRegionServer: stopping server 192.168.1.105,62544,1511773779886; zookeeper connection closed.
+2017-11-27 18:08:44,058 INFO  [M:0;192.168.1.105:62544] regionserver.HRegionServer: M:0;192.168.1.105:62544 exiting
+2017-11-27 18:08:44,058 INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181] server.NIOServerCnxn: Closed socket connection for client /0:0:0:0:0:0:0:1:62545 which had sessionid 0x15ffcbd324d0000
+2017-11-27 18:08:44,058 INFO  [M:0;192.168.1.105:62544] server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:62553 which had sessionid 0x15ffcbd324d0005
+2017-11-27 18:08:44,058 INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181] server.NIOServerCnxnFactory: NIOServerCnxn factory exited run method
+2017-11-27 18:08:44,058 INFO  [192.168.1.105:62544.activeMasterManager-SendThread(localhost:2181)] zookeeper.ClientCnxn: Unable to read additional data from server sessionid 0x15ffcbd324d0005, likely server has closed socket, closing socket connection and attempting reconnect
+2017-11-27 18:08:44,058 INFO  [M:0;192.168.1.105:62544] server.ZooKeeperServer: shutting down
+2017-11-27 18:08:44,058 INFO  [M:0;192.168.1.105:62544] server.SessionTrackerImpl: Shutting down
+2017-11-27 18:08:44,058 INFO  [M:0;192.168.1.105:62544] server.PrepRequestProcessor: Shutting down
+2017-11-27 18:08:44,058 INFO  [M:0;192.168.1.105:62544] server.SyncRequestProcessor: Shutting down
+2017-11-27 18:08:44,058 INFO  [ProcessThread(sid:0 cport:-1):] server.PrepRequestProcessor: PrepRequestProcessor exited loop!
+2017-11-27 18:08:44,058 INFO  [SyncThread:0] server.SyncRequestProcessor: SyncRequestProcessor exited!
+2017-11-27 18:08:44,059 INFO  [M:0;192.168.1.105:62544] server.FinalRequestProcessor: shutdown of request processor complete
+2017-11-27 18:08:44,164 INFO  [M:0;192.168.1.105:62544] zookeeper.MiniZooKeeperCluster: Shutdown MiniZK cluster with all ZK servers
+2017-11-27 18:08:44,259 INFO  [192.168.1.105:62544.activeMasterManager-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-11-27 18:08:44,361 WARN  [192.168.1.105:62544.activeMasterManager-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session 0x15ffcbd324d0005 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-11-27 18:08:45,829 INFO  [192.168.1.105:62544.activeMasterManager-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-11-27 18:08:45,932 WARN  [192.168.1.105:62544.activeMasterManager-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session 0x15ffcbd324d0005 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-11-27 18:08:46,003 INFO  [SessionTracker] server.SessionTrackerImpl: SessionTrackerImpl exited loop!
+2017-11-27 18:08:46,006 INFO  [Thread-4] regionserver.ShutdownHook: Shutdown hook starting; hbase.shutdown.hook=true; fsShutdownHook=org.apache.hadoop.fs.FileSystem$Cache$ClientFinalizer@3561c410
+2017-11-27 18:08:46,007 INFO  [Thread-4] regionserver.ShutdownHook: Starting fs shutdown hook thread.
+2017-11-27 18:08:46,008 INFO  [Thread-4] regionserver.ShutdownHook: Shutdown hook finished.
